@@ -39,12 +39,6 @@ crypto-prediction/
 │-- requirements.txt     # Python dependencies
 │-- README.md            # Project documentation
 
-⚡ Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/crypto-prediction.git
-cd crypto-prediction
 
 Install dependencies:
 
