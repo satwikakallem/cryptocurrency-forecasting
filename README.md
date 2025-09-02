@@ -1,11 +1,14 @@
 🚀 Cryptocurrency Price Prediction
+
 This project aims to predict cryptocurrency prices (e.g., Bitcoin, Ethereum) using machine learning and deep learning models. The system leverages historical price data, technical indicators, and sentiment analysis (optional) to forecast short-term and long-term price trends.
 
 📌 Features
-Data collection from cryptocurrency APIs (e.g., CoinGecko, Binance, Yahoo Finance).
-Preprocessing and feature engineering (technical indicators like RSI, MACD, Moving Averages).
+
+-> Data collection from cryptocurrency APIs (e.g., CoinGecko, Binance, Yahoo Finance).
+-> Preprocessing and feature engineering (technical indicators like RSI, MACD, Moving Averages).
 
 Time-series modeling using:
+
 -> LSTM / GRU models
 -> Traditional ML regressors (Random Forest, XGBoost)
 -> Baseline statistical models (ARIMA, Prophet)
@@ -14,6 +17,7 @@ Time-series modeling using:
 -> Option to deploy as a web app (Streamlit/Flask).
 
 🛠️ Tech Stack
+
 Languages: Python (NumPy, Pandas, Matplotlib, Scikit-learn)
 Deep Learning: TensorFlow / Keras / PyTorch
 Time-Series: statsmodels, Prophet
@@ -21,6 +25,7 @@ Data Sources: Binance API / Yahoo Finance API
 Deployment: Streamlit / Flask (optional)
 
 📂 Project Structure
+
 crypto-prediction/
 │-- data/                # Raw and processed datasets
 │-- notebooks/           # Jupyter notebooks for experiments
@@ -37,10 +42,12 @@ crypto-prediction/
 ⚡ Installation
 
 Clone the repository:
+
 git clone https://github.com/yourusername/crypto-prediction.git
 cd crypto-prediction
 
 Install dependencies:
+
 pip install -r requirements.txt
 Run Jupyter notebooks or scripts:
 jupyter notebook
@@ -57,6 +64,7 @@ Make predictions:
 python src/predict.py
 
 📈 Results
+
 -> LSTM outperformed traditional models with X% lower RMSE.
 -> Predictions captured short-term fluctuations fairly well.
 -> Visual comparison of true vs. predicted BTC prices:
